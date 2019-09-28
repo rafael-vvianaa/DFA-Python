@@ -37,13 +37,13 @@ class DFA:
 
 
 ##quantidade de estados##
-states = {0, 1, 2, 3};
+states = {0, 1, 2, 3}
 
 ##Alfabeto do automato##
 alphabet = {'a', 'b', 'c', 'd'}
 
 ##Cadastro do automato##
-tf = dict();
+tf = dict()
 tf[(0, 'a')] = 1
 tf[(0, 'b')] = 2
 tf[(0, 'c')] = 3
